@@ -13,16 +13,17 @@
     <header >
         <section class="flex justify-between md:px-[150px] pt-[30px] px-3 items-center">
           
-            <div class="img ">
-                <img src="assets/logo.png" alt="">
+            <div class="">
+                <img class="md:w-[135px] md:h-[82px] w-[63px] h-[38px]"src="assets/logo.png" alt="">
             </div>
             <div >
-                <ul class="flex gap-8 ">
-                    <li  class=" hidden md:block font-bold" >Home</li>
-                    <li class=" hidden md:block text-gray-400 ">Shop</li>
-                    <li class=" hidden md:block text-gray-400">About Us</li>
-                    <button class=""><i class="fas fa-shopping-cart"></i> Cart($56)</button>
-                </ul>
+                <ul class="flex gap-8 items-center">
+  <li class="hidden md:block font-bold">Home</li>
+  <li class="hidden md:block text-gray-400">Shop</li>
+  <li class="hidden md:block text-gray-400">About Us</li>
+  <li><button><i class="fas fa-shopping-cart"></i> Cart($56)</button></li> 
+</ul>
+
                 
             </div>
             
@@ -149,13 +150,47 @@
     </div>
    </div>
  </section>
+<!-- LAtest Section -->
+ <section class="pb-[120px]">
+      <div class="">
+            <h1 class="md:text-[64px] text-[24px]  font-bold  text-center pl-2"><span>Latest </span> Deals </h1>
+            <p class="text-gray-400 md:pb-[120px] pb-5 pt-1 text-center md:w-[888px] mx-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        </div>
+  <div class="grid md:grid-cols-3 grid-rows-1 mb-5 md:pl-[150px] gap-4 ">
+    
+    <!-- Left column (2 rows) -->
+    <div class="flex flex-col px-[16px] gap-4 text-center ">
+      <div class="bg-[url('./assets/deal-bloom.png')] bg-cover bg-center rounded-lg md:w-full md:h-[201px] h-[172px] w-[361px] pt-[65px] text-white">
+        <h1>60% Off | Bloom Plant</h1>
+        <button>Shop Now</button>
+      </div>
+      <div class=" bg-[url('./assets/deal-ana.png')] bg-cover bg-center rounded-lg md:w-full md:h-[201px] h-[172px] w-[361px] pt-[65px] text-white ">
+        <h1>30% Off | Ana Plant</h1>
+        <button>Shop Now</button>
+      </div>
+    </div>
+    
+   <!--  Right column  -->
+    <div class="row-span-1 px-[16px] text-center ">
+      <div class="bg-[url('./assets/deal-zabo.png')] bg-cover bg-center rounded-lg md:w-[753px] md:h-full h-[172px] w-[361px]  ">
+        
+        <div class="items-Center  md:pt-[172px] pt-[60px] text-white">
+          <h1 class="md:text-[40px] text-[20px] font font-bold ">25% Off | zabo Plant</h1>
+        <button class=" text-[28px]">Shop Now</button>
+        </div>
+        
+      </div>
+    </div>
 
+  </div>
+</section>
+<!-- Join Section -->
   <section>
   <div class="bg-[url(./assets/news-letter-bg.png)] md:h-[533px] h-[275px] w-auto bg-cover bg-center mb-4">
     <div class="md:pt-[199px] md:px-[305px] pt-[110px] px-[36px]">
       
-      <div class="text-center text-white font-bold md:text-[50px] pb-3">
-        Join the colorful Bunch
+      <div class="text-center  text-white font-bold md:text-[50px] pb-3">
+        <h1>Join the colorful Bunch</h1>
       </div>
       
       <!-- FLEX CONTAINER START -->
@@ -218,6 +253,7 @@
 
 
      
+
 
 </body>
 </html>
